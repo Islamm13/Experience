@@ -1,22 +1,26 @@
-import experienceOne.Apartment;
-import experienceOne.BuildingHouse;
-import experienceOne.GardenHouse;
+import lesson7.*;
+
 public class Main {
     public static void main(String[] args) {
 
-        GardenHouse islam =new GardenHouse("Garden House",4,3,4,"Yes",
-                15.5,"Yes","No");
-        islam.houseInfo();
-        islam.setGarage();
-        islam.setTree();
 
-        System.out.println("________________________________________________________");
+        Employee vasif = new Employee(1, "Islam", 4, "Programmer");
+        System.out.println("Salary" + vasif.calculateSalary());
+        vasif.printInfo();
+        System.out.println("____________________________");
 
-        BuildingHouse sarxan =new BuildingHouse("Serkhan's House",3,3,3,
-                100.5,14);
-        sarxan.houseInfo();
-        sarxan.setBuildingFloor();
-        sarxan.calculatekv();
+
+        Manager nazim = new Manager(2, "Nazim", 7, "Programmer",
+                "Programmer");
+        System.out.println("Salary" + nazim.calculateSalary());
+        nazim.printInfo();
+        System.out.println("_____________________________");
+
+
+        Director tofiq = new Director(3,"Tofiq",9,
+                "Prog","Whole Company",9000);
+        System.out.println("Salary"+tofiq.calculateSalary());
+        tofiq.printInfo();
 
     }
 }
