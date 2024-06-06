@@ -9,7 +9,7 @@ public class PracticaTask {
 
         Scanner scanner = new Scanner(System.in);
 
-        long floors = scanner.nextInt();
+        long floors = scanner.nextLong();
 
         if (floors>= 0 && floors <= 9) {
             System.out.println("1 Ededlidir:");
