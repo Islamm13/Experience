@@ -1,6 +1,7 @@
 package lesson9;
 
 public class While {
+
     public static void main(String[] args) {
 
         int great = 0;
