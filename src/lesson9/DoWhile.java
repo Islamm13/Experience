@@ -10,7 +10,6 @@ public class DoWhile {
             System.out.println("Number = " +number);
             number++;
         }while (number <= 10);
-
     }
 
 }
