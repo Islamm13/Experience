@@ -10,8 +10,6 @@ public class DoWhile {
             number++;
         }while (number <= 10);
 
-
-
     }
 
 }

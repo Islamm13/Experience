@@ -8,5 +8,6 @@ public class While {
             System.out.println("Java is Great");
             great++;
         }
+
     }
 }
