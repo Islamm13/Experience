@@ -1,26 +1,49 @@
-import lesson7.*;
+import lesson13.composition.House;
+import lesson13.composition.Room;
 
 public class Main {
     public static void main(String[] args) {
 
 
-        Employee vasif = new Employee(1, "Islam", 4, "Programmer");
-        System.out.println("Salary" + vasif.calculateSalary());
-        vasif.printInfo();
-        System.out.println("____________________________");
+//        Book book = new Book("Heyat","Insan");
+//
+//        Member member = new Member("Islam");
+//
+//        Library library = new Library();
+//
+//        library.addBook(book);
+//
+//        library.addMember(member);
+//
+//        System.out.println("Books");
+//
+//        library.displayBooks();
+//
+//        System.out.println("Member");
+//
+//        library.displayMember();
 
 
-        Manager nazim = new Manager(2, "Nazim", 7, "Programmer",
-                "Programmer");
-        System.out.println("Salary" + nazim.calculateSalary());
-        nazim.printInfo();
-        System.out.println("_____________________________");
+//        Universty universty = new Universty(" Programmer University");
+//
+//        Department department =new Department("Java");
+//        Department department1 =new Department("C#");
+//
+//        universty.addDepartment(department);
+//        universty.addDepartment(department1);
+//
+//        universty.displayDepartments();
 
 
-        Director tofiq = new Director(3,"Tofiq",9,
-                "Prog","Whole Company",9000);
-        System.out.println("Salary"+tofiq.calculateSalary());
-        tofiq.printInfo();
+        House house =new House("Room");
+        Room room =new Room(90,"Studio");
+        house.addRoom(room);
+        house.displayRooms();
+
+
+
+
 
     }
+
 }
