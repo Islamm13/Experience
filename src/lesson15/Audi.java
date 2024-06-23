@@ -6,7 +6,8 @@ public class Audi extends Vehicle implements Car {
     public Audi(String name, String color, int age) {
         super(name, color, age);
     }
-    public void infoAudi(){
+    @Override
+    public void info(){
         System.out.println("Model: "+name);
         System.out.println("Color: "+color);
         System.out.println("Year: "+age);

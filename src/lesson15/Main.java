@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Bmw bmw = new Bmw("BMW M5","Red",2024);
-        bmw.infoBMW();
+        bmw.info();
         bmw.speed();
         bmw.drive();
         bmw.oil();
@@ -12,7 +12,7 @@ public class Main {
         System.out.println("-----------------------------------");
 
         Ferrari ferrari = new Ferrari("Ferrari F40","Yellow",2020);
-        ferrari.infoFerrari();
+        ferrari.info();
         ferrari.speed();
         ferrari.drive();
         ferrari.oil();
@@ -20,7 +20,7 @@ public class Main {
         System.out.println("-----------------------------------");
 
         Audi audi = new Audi("Audi Q8","Black",2021);
-        audi.infoAudi();
+        audi.info();
         audi.speed();
         audi.drive();
         audi.oil();
