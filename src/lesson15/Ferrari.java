@@ -6,8 +6,9 @@ public class Ferrari extends Vehicle implements Car{
     public Ferrari(String name, String color, int age) {
         super(name, color, age);
     }
+
     @Override
-    public void info(){
+    public void infoCar() {
         System.out.println("Model: "+name);
         System.out.println("Color: "+color);
         System.out.println("Year: "+age);

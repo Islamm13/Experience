@@ -8,7 +8,7 @@ public class Bmw extends Vehicle implements Car{
     }
 
     @Override
-    public void info() {
+    public void infoCar() {
         System.out.println("Model: "+name);
         System.out.println("Color: "+color);
         System.out.println("Year: "+age);
