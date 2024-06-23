@@ -14,7 +14,7 @@ public abstract class Vehicle {
         this.color = color;
         this.age = age;
     }
-    public void infoCar(){
+     void infoCar(){
 
     }
 }
