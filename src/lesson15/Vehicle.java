@@ -1,6 +1,6 @@
 package lesson15;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements Car {
 
 
     String name;
@@ -8,6 +8,7 @@ public abstract class Vehicle {
     String color;
 
     int age;
+
 
     public Vehicle(String name, String color, int age) {
         this.name = name;
@@ -17,4 +18,5 @@ public abstract class Vehicle {
      void infoCar(){
 
     }
+
 }

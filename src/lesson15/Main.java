@@ -11,6 +11,14 @@ public class Main {
 
         System.out.println("-----------------------------------");
 
+        Vehicle bmw1 =new Bmw("BWM M3","Gray",2023);
+        bmw1.infoCar();
+        bmw1.speed();
+        bmw1.drive();
+        bmw1.oil();
+
+        System.out.println("-----------------------------------");
+
         Ferrari ferrari = new Ferrari("Ferrari F40","Yellow",2020);
         ferrari.infoCar();
         ferrari.speed();
