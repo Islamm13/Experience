@@ -3,6 +3,7 @@ package lesson15;
 public class Bmw extends Vehicle implements Car{
 
 
+
     public Bmw(String name, String color, int age) {
         super(name, color, age);
     }

@@ -1,6 +1,7 @@
 package lesson15;
 
-public class Vehicle {
+public abstract class Vehicle {
+
 
     String name;
 

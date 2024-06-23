@@ -3,6 +3,7 @@ package lesson15;
 public class Main {
     public static void main(String[] args) {
 
+
         Bmw bmw = new Bmw("BMW M5","Red",2024);
         bmw.infoCar();
         bmw.speed();
